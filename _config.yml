@@ -3,7 +3,7 @@ title: 芯盾技术团队
 seo-title: 芯盾技术团队 | Dev Blog
 header-img: img/home-bg.jpg
 email: chinsyo@qq.com
-description: "芯盾技术团队 | 开发工程师,关注数据、设计、效率"
+description: "芯盾技术团队 | 开发工程师, 关注数据、设计、效率"
 keyword: "芯盾技术团队, Blog, 博客, 安卓, Android, Kotlin, 苹果, iOS, Switf, 编程, 开发"
 url: "https://coreshield.github.io"              # your host, for absolute URL
 dir: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
@@ -35,7 +35,7 @@ defaults:
       type: posts
     values:
       layout: post
-      author: Chinsyo
+      # author: Chinsyo
 
 # if you want to customize anchor. check out line:181 of `post.html`
 # If you have timezone issue (e.g. #68) in China, uncomment to use this:
@@ -79,7 +79,7 @@ ga_track_id: "UA-131370814-2"            # Format: UA-xxxxxx-xx
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "Noob & Geek<br>我心匪石"
+sidebar-about-description: "芯盾技术团队"
 sidebar-avatar: /img/avatar.png      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 

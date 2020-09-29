@@ -1,6 +1,7 @@
 ---
 title: 使用 Python 脚本下载 IPA
 subtitle: Python download IPA
+author: 晨晓
 date: 2018-09-21 12:00:00
 tags:
   - Python
