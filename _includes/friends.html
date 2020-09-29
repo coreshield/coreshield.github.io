@@ -1,9 +1,9 @@
-{% if site.friends %}
+{% if site.data.friends %}
 <section class="visible-md visible-lg">
 <hr>
 <h5><a href="{{'/' | prepend: site.dir }}">FRIENDS</a></h5>
 <ul class="list-inline">
-  {% for friend in site.friends %}
+  {% for friend in site.data.friends %}
   <li><a href="{{friend.href}}" title="{% if friend.subtitle %}{{ friend.subtitle }}{% endif %}">{{ friend.title }}</a></li>
   {% endfor %}
 </ul>

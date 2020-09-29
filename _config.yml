@@ -88,19 +88,3 @@ sidebar-avatar: /assets/images/avatar.png      # use absolute URL, seeing it's u
 featured-tags: true                     # whether or not using Feature-Tags
 featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
 
-
-
-# Friends
-friends: 
-  -
-    title: "王晨晓的博客"
-    subtitle: "得到的都是侥幸 失去的都是人生"
-    href: "http://chinsyo.com/"
-  -
-    title: "月半兄的小站"
-    subtitle: "程序员的男人"
-    href: "https://yueban.github.io/"
-  -
-    title: "珞泽珈群"
-    subtitle: "头顶的星空以及心中的道德定律"
-    href: "https://www.jianshu.com/u/679d8deee5ae"
