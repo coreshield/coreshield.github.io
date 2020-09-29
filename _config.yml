@@ -1,10 +1,10 @@
 # Site settings
 title: 芯盾技术团队
-seo-title: 芯盾技术团队的博客 | Dev Blog
+seo-title: 芯盾技术团队 | Dev Blog
 header-img: img/home-bg.jpg
 email: chinsyo@qq.com
 description: "芯盾技术团队 | 开发工程师,关注数据、设计、效率"
-keyword: "芯盾技术团队, Blog, 博客, 苹果, iOS, macOS, Python, 编程, 开发"
+keyword: "芯盾技术团队, Blog, 博客, 安卓, Android, Kotlin, 苹果, iOS, Switf, 编程, 开发"
 url: "https://coreshield.github.io"              # your host, for absolute URL
 dir: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
