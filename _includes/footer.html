@@ -19,10 +19,10 @@
 </footer>
 
 <!-- jQuery -->
-<script src="{{ '/js/jquery.min.js' | prepend: site.dir }}"></script>
+<script src="{{ '/scripts/jquery.min.js' | prepend: site.dir }}"></script>
 
 <!-- Custom Theme JavaScript -->
-<script src="{{ '/js/hux-blog.min.js' | prepend: site.dir }}"></script>
+<script src="{{ '/scripts/hux-blog.min.js' | prepend: site.dir }}"></script>
 
 <!-- async load function -->
 <script>
@@ -39,14 +39,14 @@
 {% if page.title == 'Archive' %}
 <!-- jquery.tagcloud.js -->
 <script>
-    async('{{ "/js/jquery.tagcloud.js" | prepend: site.dir }}',function(){
+    async('{{ "/scripts/jquery.tagcloud.js" | prepend: site.dir }}',function(){
         $.fn.tagcloud.defaults = {
             color: {start: '#bbbbee', end: '#2f93b4'},
         };
         $('#tag_cloud a').tagcloud();
     })
 </script>
-<script src='{{ "/js/archive.js " | prepend: site.dir }}'></script>
+<script src='{{ "/scripts/archive.js " | prepend: site.dir }}'></script>
 {% endif %}
 
 <!--fastClick.js -->
@@ -120,7 +120,7 @@
      * Doc: https://github.com/davist11/jQuery-One-Page-Nav
      * Fork by Hux to support padding
      */
-    async("{{ '/js/jquery.nav.js' | prepend: site.dir }}", function () {
+    async("{{ '/scripts/jquery.nav.js' | prepend: site.dir }}", function () {
         $('.catalog-body').onePageNav({
             currentClass: "active",
             changeHash: !1,
