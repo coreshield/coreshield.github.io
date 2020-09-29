@@ -70,14 +70,12 @@ kramdown:
 
 
 # Disqus settings
-disqus_username: chinsyo
+disqus_username: team-blog-1
 
 
 
 # Google Analytics
-ga_track_id: "UA-131370814-1"            # Format: UA-xxxxxx-xx
-# adsense_id: "ca-pub-3082878493327361"
-
+ga_track_id: "UA-131370814-2"            # Format: UA-xxxxxx-xx
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
