@@ -1,11 +1,11 @@
 # Site settings
-title: Chinsyo Blog
-seo-title: 王晨晓的博客 | Chinsyo Blog
+title: 芯盾开发团队
+seo-title: 芯盾开发团队的博客 | Dev Blog
 header-img: img/home-bg.jpg
 email: chinsyo@qq.com
-description: "王晨晓的博客 | 开发工程师,关注数据、设计、效率"
-keyword: "王晨晓, Blog, 博客, 苹果, iOS, macOS, Python, 编程, 开发"
-url: "https://chinsyo.com"              # your host, for absolute URL
+description: "芯盾开发团队 | 开发工程师,关注数据、设计、效率"
+keyword: "芯盾开发团队, Blog, 博客, 苹果, iOS, macOS, Python, 编程, 开发"
+url: "https://coreshield.github.io"              # your host, for absolute URL
 dir: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
@@ -95,42 +95,6 @@ featured-condition-size: 1              # A tag will be featured if the size of 
 # Friends
 friends: 
   -
-    title: "火辣辣"
+    title: "晨晓"
     subtitle: "前端博客"
-    href: "http://huolalaweb.com/"
-  -
-    title: "极客兔兔"
-    subtitle: "致力于分享有趣的技术实践"
-    href: "https://geektutu.com/"
-  -
-    title: "fengxianqi"
-    subtitle: "静心沉淀，思考进阶。"
-    href: "https://www.fengxianqi.com/"
-  -
-    title: "rffan 实验室"
-    subtitle: "一个高端大气上档次的网站"
-    href: "https://rffanlab.com/"
-  -
-    title: "挨踢极客"
-    subtitle: "人生苦短，我想编程"
-    href: "https://blog.itjk.me/"
-  -
-    title: "邱青岑的个人博客"
-    subtitle: "有幸与你见证技术的变迁"
-    href: "https://www.imwhite.com.cn/"
-  -
-    title: "麦田博客"
-    subtitle: "记录技术与生活。"
-    href: "https://www.myting.net/"
-  -
-    title: "阿里小太阳"
-    subtitle: "小太阳昌仔 永远照耀你"
-    href: "http://haoufo.com"
-  -
-    title: "码农的自留地"
-    subtitle: "码农的自留地"
-    href: "https://quxiaolei.github.io"
-  -
-    title: "曲奇泡芙"
-    subtitle: "stay interesting.."
-    href: "http://weng.ai"
+    href: "http://chinsyo.com/"
