@@ -1,0 +1,26 @@
+---
+layout: page
+description: "合抱之木 生于毫末"
+---
+
+{% for job in site.data.careers %}
+<div class="post-preview">
+    <a href="{{ post.url | prepend: site.dir }}">
+        <h2 class="post-title">
+            {{ job.title }}
+        </h2>
+        {% if job.subtitle %}
+        <h3 class="post-subtitle">
+            {{ job.subtitle }}
+        </h3>
+        {% endif %}
+        <div class="post-content-preview">
+            {{ job.requirements | strip_html | truncate:150 }}
+        </div>
+    </a>
+    <p class="post-meta">
+        Posted by {% if job.author %}{{ job.author }}{% else %}{{ site.title }}{% endif %} on {{ job.date | date: "%B %-d, %Y" }}
+    </p>
+</div>
+<hr>
+{% endfor %}
