@@ -17,7 +17,7 @@ tags:
 以 Instagram 为例。访问 PP 助手网页，在 Instagram 应用详情页我们看到「下载越狱版」的字样，这正是我们要寻找的脱壳版 IPA。
 
 ![](http://pwj4lonpu.bkt.clouddn.com/25pp-instagram.jpg)
-![](../assets/images/home-bg.jpg)
+![](/assets/images/home-bg.jpg)
 
 使用 Chrome 开发者工具中的 Inspector 选中该按钮可以看到对应节点的 HTML 源码，如下:
 
