@@ -12,7 +12,9 @@ dir: ""                             # for example, '/blog' if your blog hosted o
 future: true
 
 # SNS settings
-RSS: true
+rss: true
+jobs: true
+
 # weibo_username: chinsyo
 github_username: coreshield
 mailme_username: lPf8-frn7fvU5eW69-v5
