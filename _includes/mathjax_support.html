@@ -1,23 +1,27 @@
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    TeX: {
-      equationNumbers: {
-        autoNumber: "AMS"
-      }
-    },
-    SVG: {
-      scale: 120
-    },
-    extensions: [
-      "tex2jax.js"
-    ],
-    tex2jax: {
+<script>
+  window.MathJax = {
+    tex: {
+      tags: "ams",
       inlineMath: [ ['$','$'] ],
       displayMath: [ ['$$','$$'] ],
       processEscapes: true,
+      autoload: {
+        color: [],
+        colorV2: ['color']
+      },
+      packages: {'[+]': ['noerrors']}
+    },
+    svg: {
+      scale: 1.2
+    },
+    options: {
+      ignoreHtmlClass: 'tex2jax_ignore',
+      processHtmlClass: 'tex2jax_process'
+    },
+    loader: {
+      load: ['[tex]/noerrors']
     }
-  });
-</script>
-<script type="text/javascript"
-        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_SVG">
-</script>
+  };
+  </script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-svg.js" id="MathJax-script" async></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.1.2/es5/tex-mml-svg.min.js" integrity="sha512-cvY8FLZ100SA0lUHyX38BDEr1rz0AKP6Iz+t5yfOPOyuKX72RNHIuPGH/+ScEsbKBhngYhKJSaFbtKet0te1Sw==" crossorigin="anonymous" id="MathJax-script" async></script>
